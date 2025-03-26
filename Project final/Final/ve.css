@@ -1,0 +1,151 @@
+body{
+    padding: 10px;
+    margin:auto;
+    box-sizing: border-box;
+    width:850px;
+    height: auto;
+    
+}
+@font-face{
+    font-family:"flower";
+    src: url(Flower.ttf);
+}
+p{
+    font-family:"flower";
+    font-size:42px;
+    margin-bottom:0;
+}
+span{
+    font-family:"Khmer OS Freehand";
+    font-size: 12px;
+    display: flex;
+    padding:0;
+}
+.menu{
+    /* background: pink; */
+    background: pink;
+    position: sticky;
+    top: 0px;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    padding:0;
+    margin: 0;
+    justify-content:center;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding:20px 20px;
+    font-size: 30px;
+    /* background: pink; */
+    transition:0.5s;
+}
+.menu ul li a:hover{
+    color: palevioletred;
+    background: plum;
+    transition:0.5s;
+    border-radius: 25px 0px 10px 0px;
+}
+.ve{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    padding:0px;
+    /* width:60%; */
+    /* margin: 10rem auto 0 auto; */
+}
+.ve img{
+    height:250px;
+    width:250px;
+}
+.ve h2{
+    margin: 0;
+    /* color: blue; */
+    margin-left: 10px;
+}
+.ve p{
+    font-family:"Khmer OS Freehand";
+    /* color: rgb(255, 47, 0); */
+    font-size: 17px;
+   margin-left: 10px;
+   margin-top: 0px;
+}
+.cover5{
+    width:900px;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    /* background: pink; */
+}
+.cover5 p{
+    font-family: "Khmer OS Freehand";
+    margin: 0px;
+    font-size:18px ;
+    /* width: 500px; */
+    /* height: 400px; */
+    align-content: center;
+    justify-content:center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cover5 img{
+    width:300px;
+    height: 350px;
+    display: flex;
+}
+.cover6{
+    background: pink;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    text-align: center;
+    width: 900px;
+    height: auto;
+}
+.c1 h3{
+    margin: 10px;
+    /* color: blue; */
+    margin-left: 10px;
+}
+.c1 p{
+    font-family:"Khmer OS Freehand";
+    /* color: rgb(255, 47, 0); */
+    font-size: 18px;
+   margin-left: 10px;
+}
+.c2 h3{
+    margin: 10px;
+    /* color: blue; */
+    margin-left: 20px;
+}
+.c2 p{
+    font-family:"Khmer OS Freehand";
+    /* color: rgb(255, 47, 0); */
+    font-size: 18px;
+   margin-left: 20px;
+}
+.c3 h3{
+    margin: 10px;
+    /* color: blue; */
+    margin-left: 10px;
+}
+.c3 p{
+    font-family:"Khmer OS Freehand";
+    /* color: rgb(255, 47, 0); */
+    font-size: 18px;
+   margin-left: 10px;
+   
+}
+.c4 h3{
+    margin: 10px;
+    /* color: blue; */
+    margin-left: 10px;
+}
+.c4 p{
+    font-family:"Khmer OS Freehand";
+    /* color: rgb(255, 47, 0); */
+    font-size: 18px;
+    margin-left: 10px;
+}
